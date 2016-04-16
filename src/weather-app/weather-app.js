@@ -2,23 +2,39 @@ import React from 'react-native';
 const {
   Component,
   StyleSheet,
-  Text,
   View,
+  Text,
+  ListView,
 } = React;
 
 export default class WeatherProject extends Component {
   componentWillMount() {
-    this.setState({
-      cities: [ 'Amsterdam', 'Paris', 'London' ],
+    const _dataSource = new ListView.DataSource({
+      rowHasChanged: (r1, r2) => r1 !== r2
     });
+
+    this.setState({
+      dataSource: _dataSource.cloneWithRows([
+        'Amsterdam', 'Paris', 'London'
+      ]),
+    });
+  }
+
+  _renderRow(rowData) {
+    return (
+      <Text>
+        {rowData}
+      </Text>
+    )
   }
 
   render() {
     return (
       <View style={styles.container}>
-        <Text>
-          Weather
-        </Text>
+        <ListView
+          dataSource={this.state.dataSource}
+          renderRow={this._renderRow}>
+        </ListView>
       </View>
     );
   }
