@@ -1,0 +1,26 @@
+{
+  "name": "react-native-weather",
+  "version": "1.0.0",
+  "description": "Code samples for the book Learning React Native.",
+  "main": "wallaby.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebabel-eu/react-native-weather.git"
+  },
+  "author": "Nadjib Amar <hello@ebabel.eu> (http://ebabel.eu/)",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/ebabel-eu/react-native-weather/issues"
+  },
+  "homepage": "https://github.com/ebabel-eu/react-native-weather#readme",
+  "dependencies": {
+    "react": "0.14.5",
+    "react-native": "0.23.1"
+  },
+  "devDependencies": {
+    "wallaby-webpack": "0.0.22"
+  }
+}
