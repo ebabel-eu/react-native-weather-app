@@ -28,7 +28,7 @@ In your settings.json (User Settings), the following can be set to lint this pro
 {
   "jshint.enable": false,
   "eslint.enable": true,
-	"editor.tabSize": 2
+  "editor.tabSize": 2
 }
 ```
 
