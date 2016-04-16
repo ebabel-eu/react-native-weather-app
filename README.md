@@ -16,6 +16,10 @@ While developing, keep running this localhost process:
 react-native start
 ```
 
+### iOS
+
+In XCode, open ./ios/WeatherApp.xcodeproj
+
 ## Visual Studio Code setup [optional]
 
 In your settings.json (User Settings), the following can be set to lint this project inline:
