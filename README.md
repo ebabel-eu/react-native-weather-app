@@ -4,7 +4,16 @@ React native app that gives the weather of a number of cities.
 ## Install
 
 ```
+npm install -g react-native-cli
 npm install
+```
+
+## Development
+
+While developing, keep running this localhost process:
+
+```
+react-native start
 ```
 
 ## Visual Studio Code setup [optional]
@@ -29,4 +38,14 @@ Optionally, since this project is Wallaby enabled, you can install it:
 
 ```
 ext install wallaby
+```
+
+## Initial setup
+
+The command below does not need to be run again.
+
+This app was initially scaffolded with:
+
+```
+react-native init WeatherApp .
 ```

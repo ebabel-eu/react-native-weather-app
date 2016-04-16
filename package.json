@@ -4,7 +4,7 @@
   "description": "Code samples for the book Learning React Native.",
   "main": "wallaby.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/ebabel-eu/react-native-weather#readme",
   "dependencies": {
-    "react": "0.14.5",
+    "react": "0.14.8",
     "react-native": "0.23.1"
   },
   "devDependencies": {
