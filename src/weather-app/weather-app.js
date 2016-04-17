@@ -15,7 +15,13 @@ export default class WeatherProject extends Component {
 
     this.setState({
       dataSource: _dataSource.cloneWithRows([
-        'Amsterdam', 'Paris', 'London'
+        'Amsterdam',
+        'Athens',
+        'Berlin',
+        'London',
+        'Madrid',
+        'Paris',
+        'Rome',
       ]),
     });
   }
